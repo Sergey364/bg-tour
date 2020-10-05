@@ -1,27 +1,15 @@
 {
   "name": "bg-tour",
-  "version": "1.0.0",
-  "description": "Сайт для турниров по HS Battlegrounds",
-  "main": "index.js",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sergey364/bg-tour.git"
-  },
-  "keywords": [
-    "vue",
-    "HS_Battlegrouns",
-    "tournaments"
-  ],
-  "author": "Михайлов С.Е. Онищук Д.В.",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sergey364/bg-tour/issues"
-  },
-  "homepage": "https://github.com/Sergey364/bg-tour#readme",
   "dependencies": {
-    "vue": "^3.0.0"
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.1",
+    "@vue/compiler-sfc": "^3.0.0-rc.1"
   }
 }
