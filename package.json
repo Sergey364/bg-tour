@@ -2,15 +2,18 @@
   "name": "bg-tour",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "dev": "vite"
   },
   "dependencies": {
-    "vue": "^3.0.0-rc.1"
+    "vue": "^3.0.0-rc.1",
+    "vue-class-component": "^8.0.0-0"
   },
   "devDependencies": {
     "@vue/cli-plugin-typescript": "^4.5.6",
+    "@vue/cli-service": "^4.5.6",
     "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "typescript": "~3.9.3",
     "vite": "^1.0.0-rc.1"
   }
 }
